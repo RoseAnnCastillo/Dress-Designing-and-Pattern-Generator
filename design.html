@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title> Designing Clothes with Sewing Pattern Generator </title>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<script src="Bootstrap/js/respond.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<br/><br/><br/><br/><br/>
+			<div class="row">
+				<canvas	width="800" height="500"><img src=""/>logo.png</canvas>
+			</div>
+			<div class="row" align="center">
+				<div class="controls">
+					<ul>
+						<li class="red "></li>
+						<li class="blue"></li>
+						<li class="yellow"></li>
+					</ul>
+					<button id="revealColorSelect">New Color</button>
+					<div id="colorSelect"> <span id="newColor"></span>
+						<div class="sliders">
+							<p>
+								<label for="red">Red</label>
+								<input id="red" name="red" type="range" min=0 max=255 value=0>
+							</p>
+							<p>
+								<label for="green">Green</label>
+								<input id="green" name="green" type="range" min=0 max=255 value=0>
+							</p>
+							<p>
+								<label for="blue">Blue</label>
+								<input id="blue" name="blue" type="range" min=0 max=255 value=0>
+							</p>
+						</div>
+					<div>
+					<button id="addNewColor">Add Color</button>
+				</div>	
+			</div>
+		</div>
+	</body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+	<script src="Bootstrap/js/jquery.js"></script>
+	<script src="Bootstrap/js/bootstrap.min.js"></script>
+</html>
